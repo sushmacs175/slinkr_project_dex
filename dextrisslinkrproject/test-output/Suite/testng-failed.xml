@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="ChromeTest1(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.slinkr.testscript.slinkrLogin">
+        <methods>
+          <include name="sendinginvalidUn"/>
+          <include name="loginErrorMsg"/>
+          <include name="loginCosmeticVerification"/>
+          <include name="executeAfterClass"/>
+          <include name="sendinginvalidUn1"/>
+          <include name="unpwdheightandwidth"/>
+          <include name="executeBeforeClass"/>
+          <include name="oneendtoendLoginPage"/>
+        </methods>
+      </class> <!-- com.slinkr.testscript.slinkrLogin -->
+    </classes>
+  </test> <!-- ChromeTest1(failed) -->
+  <test thread-count="5" parallel="methods" name="ChromeTest2(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.slinkr.testscript.slinkrLogin">
+        <methods>
+          <include name="sendinginvalidUn"/>
+          <include name="loginErrorMsg"/>
+          <include name="loginCosmeticVerification"/>
+          <include name="executeAfterClass"/>
+          <include name="sendinginvalidUn1"/>
+          <include name="unpwdheightandwidth"/>
+          <include name="executeBeforeClass"/>
+          <include name="oneendtoendLoginPage"/>
+        </methods>
+      </class> <!-- com.slinkr.testscript.slinkrLogin -->
+    </classes>
+  </test> <!-- ChromeTest2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

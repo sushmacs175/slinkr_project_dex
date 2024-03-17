@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="14" passed="12" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[background color of login button is rgba(13, 110, 253, 1)]]>
+    </line>
+    <line>
+      <![CDATA[fontfamily is system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"]]>
+    </line>
+    <line>
+      <![CDATA[invalid message : Username or password incorrect]]>
+    </line>
+    <line>
+      <![CDATA[username Height is 47]]>
+    </line>
+    <line>
+      <![CDATA[username width is 204]]>
+    </line>
+    <line>
+      <![CDATA[background color of login button is rgb(13, 110, 253)]]>
+    </line>
+    <line>
+      <![CDATA[fontfamily is system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"]]>
+    </line>
+    <line>
+      <![CDATA[invalid message : ]]>
+    </line>
+    <line>
+      <![CDATA[username Height is 47]]>
+    </line>
+    <line>
+      <![CDATA[username width is 208]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-03-17T22:08:43 IST" name="Suite" finished-at="2024-03-17T22:09:16 IST" duration-ms="32405">
+    <groups>
+      <group name="regression">
+        <method signature="slinkrLogin.oneendtoendLoginPage()[pri:0, instance:com.slinkr.testscript.slinkrLogin@2a4fb17b]" name="oneendtoendLoginPage" class="com.slinkr.testscript.slinkrLogin"/>
+        <method signature="slinkrLogin.oneendtoendLoginPage()[pri:0, instance:com.slinkr.testscript.slinkrLogin@5542c4ed]" name="oneendtoendLoginPage" class="com.slinkr.testscript.slinkrLogin"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="slinkrLogin.loginCosmeticVerification()[pri:0, instance:com.slinkr.testscript.slinkrLogin@2a4fb17b]" name="loginCosmeticVerification" class="com.slinkr.testscript.slinkrLogin"/>
+        <method signature="slinkrLogin.loginCosmeticVerification()[pri:0, instance:com.slinkr.testscript.slinkrLogin@5542c4ed]" name="loginCosmeticVerification" class="com.slinkr.testscript.slinkrLogin"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-03-17T22:08:43 IST" name="ChromeTest1" finished-at="2024-03-17T22:09:01 IST" duration-ms="17436">
+      <class name="com.slinkr.testscript.slinkrLogin">
+        <test-method is-config="true" signature="executeBeforeClass(java.lang.String)[pri:0, instance:com.slinkr.testscript.slinkrLogin@2a4fb17b]" started-at="2024-03-17T22:08:43 IST" name="executeBeforeClass" finished-at="2024-03-17T22:08:51 IST" duration-ms="7090" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBeforeClass -->
+        <test-method signature="loginCosmeticVerification()[pri:0, instance:com.slinkr.testscript.slinkrLogin@2a4fb17b]" started-at="2024-03-17T22:08:51 IST" name="loginCosmeticVerification" finished-at="2024-03-17T22:08:53 IST" duration-ms="2139" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[background color of login button is rgba(13, 110, 253, 1)]]>
+            </line>
+            <line>
+              <![CDATA[fontfamily is system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginCosmeticVerification -->
+        <test-method signature="loginErrorMsg()[pri:0, instance:com.slinkr.testscript.slinkrLogin@2a4fb17b]" started-at="2024-03-17T22:08:53 IST" name="loginErrorMsg" finished-at="2024-03-17T22:08:55 IST" duration-ms="2007" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[invalid message : Username or password incorrect]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginErrorMsg -->
+        <test-method signature="oneendtoendLoginPage()[pri:0, instance:com.slinkr.testscript.slinkrLogin@2a4fb17b]" started-at="2024-03-17T22:08:55 IST" name="oneendtoendLoginPage" finished-at="2024-03-17T22:08:58 IST" duration-ms="3080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneendtoendLoginPage -->
+        <test-method signature="sendinginvalidUn()[pri:0, instance:com.slinkr.testscript.slinkrLogin@2a4fb17b]" started-at="2024-03-17T22:08:58 IST" name="sendinginvalidUn" finished-at="2024-03-17T22:08:59 IST" duration-ms="1197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendinginvalidUn -->
+        <test-method signature="sendinginvalidUn1()[pri:0, instance:com.slinkr.testscript.slinkrLogin@2a4fb17b]" started-at="2024-03-17T22:08:59 IST" name="sendinginvalidUn1" finished-at="2024-03-17T22:09:00 IST" duration-ms="1249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendinginvalidUn1 -->
+        <test-method signature="unpwdheightandwidth()[pri:0, instance:com.slinkr.testscript.slinkrLogin@2a4fb17b]" started-at="2024-03-17T22:09:00 IST" name="unpwdheightandwidth" finished-at="2024-03-17T22:09:00 IST" duration-ms="58" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[username Height is 47]]>
+            </line>
+            <line>
+              <![CDATA[username width is 204]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- unpwdheightandwidth -->
+        <test-method is-config="true" signature="executeAfterClass()[pri:0, instance:com.slinkr.testscript.slinkrLogin@2a4fb17b]" started-at="2024-03-17T22:09:00 IST" name="executeAfterClass" finished-at="2024-03-17T22:09:01 IST" duration-ms="531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeAfterClass -->
+      </class> <!-- com.slinkr.testscript.slinkrLogin -->
+    </test> <!-- ChromeTest1 -->
+    <test started-at="2024-03-17T22:09:01 IST" name="ChromeTest2" finished-at="2024-03-17T22:09:16 IST" duration-ms="14926">
+      <class name="com.slinkr.testscript.slinkrLogin">
+        <test-method is-config="true" signature="executeBeforeClass(java.lang.String)[pri:0, instance:com.slinkr.testscript.slinkrLogin@5542c4ed]" started-at="2024-03-17T22:09:01 IST" name="executeBeforeClass" finished-at="2024-03-17T22:09:08 IST" duration-ms="7320" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeBeforeClass -->
+        <test-method signature="loginCosmeticVerification()[pri:0, instance:com.slinkr.testscript.slinkrLogin@5542c4ed]" started-at="2024-03-17T22:09:08 IST" name="loginCosmeticVerification" finished-at="2024-03-17T22:09:10 IST" duration-ms="2068" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[background color of login button is rgb(13, 110, 253)]]>
+            </line>
+            <line>
+              <![CDATA[fontfamily is system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginCosmeticVerification -->
+        <test-method signature="loginErrorMsg()[pri:0, instance:com.slinkr.testscript.slinkrLogin@5542c4ed]" started-at="2024-03-17T22:09:10 IST" name="loginErrorMsg" finished-at="2024-03-17T22:09:10 IST" duration-ms="159" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[invalid message : ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginErrorMsg -->
+        <test-method signature="oneendtoendLoginPage()[pri:0, instance:com.slinkr.testscript.slinkrLogin@5542c4ed]" started-at="2024-03-17T22:09:10 IST" name="oneendtoendLoginPage" finished-at="2024-03-17T22:09:11 IST" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneendtoendLoginPage -->
+        <test-method signature="sendinginvalidUn()[pri:0, instance:com.slinkr.testscript.slinkrLogin@5542c4ed]" started-at="2024-03-17T22:09:11 IST" name="sendinginvalidUn" finished-at="2024-03-17T22:09:11 IST" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendinginvalidUn -->
+        <test-method signature="sendinginvalidUn1()[pri:0, instance:com.slinkr.testscript.slinkrLogin@5542c4ed]" started-at="2024-03-17T22:09:11 IST" name="sendinginvalidUn1" finished-at="2024-03-17T22:09:11 IST" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendinginvalidUn1 -->
+        <test-method signature="unpwdheightandwidth()[pri:0, instance:com.slinkr.testscript.slinkrLogin@5542c4ed]" started-at="2024-03-17T22:09:11 IST" name="unpwdheightandwidth" finished-at="2024-03-17T22:09:11 IST" duration-ms="25" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[username Height is 47]]>
+            </line>
+            <line>
+              <![CDATA[username width is 208]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- unpwdheightandwidth -->
+        <test-method is-config="true" signature="executeAfterClass()[pri:0, instance:com.slinkr.testscript.slinkrLogin@5542c4ed]" started-at="2024-03-17T22:09:11 IST" name="executeAfterClass" finished-at="2024-03-17T22:09:16 IST" duration-ms="4775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeAfterClass -->
+      </class> <!-- com.slinkr.testscript.slinkrLogin -->
+    </test> <!-- ChromeTest2 -->
+  </suite> <!-- Suite -->
+</testng-results>
